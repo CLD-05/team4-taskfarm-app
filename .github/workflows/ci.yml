@@ -39,10 +39,10 @@ jobs:
         uses: hadolint/hadolint-action@v3.1.0
         with:
           dockerfile: user/Dockerfile
-          ignored: DL3008
+          ignore: DL3008
 
       - name: Lint admin Dockerfile
         uses: hadolint/hadolint-action@v3.1.0
         with:
           dockerfile: admin/Dockerfile
-          ignored: DL3008
+          ignore: DL3008
